@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42ADB7A81B6B1E070039C57B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ADB7A71B6B1E070039C57B /* main.m */; };
+		42ADB7AB1B6B1E070039C57B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ADB7AA1B6B1E070039C57B /* AppDelegate.m */; };
+		42ADB7AE1B6B1E070039C57B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ADB7AD1B6B1E070039C57B /* ViewController.m */; };
+		42ADB7B11B6B1E070039C57B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ADB7AF1B6B1E070039C57B /* Main.storyboard */; };
+		42ADB7B31B6B1E070039C57B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42ADB7B21B6B1E070039C57B /* Images.xcassets */; };
+		42ADB7B61B6B1E070039C57B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42ADB7B41B6B1E070039C57B /* LaunchScreen.xib */; };
+		42ADB7C21B6B1E070039C57B /* ATDateViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ADB7C11B6B1E070039C57B /* ATDateViewTests.m */; };
+		42ADB7D61B6B1E890039C57B /* MyDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ADB7CD1B6B1E890039C57B /* MyDatePicker.m */; };
+		42ADB7D81B6B1E890039C57B /* UUDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ADB7D01B6B1E890039C57B /* UUDatePicker.m */; };
+		42ADB7DB1B6B1E890039C57B /* UUDatePicker_DateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ADB7D41B6B1E890039C57B /* UUDatePicker_DateModel.m */; };
+		42ADB7DF1B6B1FFF0039C57B /* UIImage+Fit.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ADB7DE1B6B1FFF0039C57B /* UIImage+Fit.m */; };
+		42ADB7E21B6B26340039C57B /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 42ADB7E01B6B26340039C57B /* 3.png */; };
+		42ADB7E31B6B26340039C57B /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 42ADB7E11B6B26340039C57B /* 4.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42ADB7BC1B6B1E070039C57B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42ADB79A1B6B1E070039C57B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42ADB7A11B6B1E070039C57B;
+			remoteInfo = ATDateView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42ADB7A21B6B1E070039C57B /* ATDateView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATDateView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42ADB7A61B6B1E070039C57B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42ADB7A71B6B1E070039C57B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42ADB7A91B6B1E070039C57B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42ADB7AA1B6B1E070039C57B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42ADB7AC1B6B1E070039C57B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42ADB7AD1B6B1E070039C57B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42ADB7B01B6B1E070039C57B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42ADB7B21B6B1E070039C57B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42ADB7B51B6B1E070039C57B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		42ADB7BB1B6B1E070039C57B /* ATDateViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATDateViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42ADB7C01B6B1E070039C57B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42ADB7C11B6B1E070039C57B /* ATDateViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATDateViewTests.m; sourceTree = "<group>"; };
+		42ADB7CC1B6B1E890039C57B /* MyDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDatePicker.h; sourceTree = "<group>"; };
+		42ADB7CD1B6B1E890039C57B /* MyDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDatePicker.m; sourceTree = "<group>"; };
+		42ADB7CE1B6B1E890039C57B /* UUDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUDatePicker.h; sourceTree = "<group>"; };
+		42ADB7D01B6B1E890039C57B /* UUDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUDatePicker.m; sourceTree = "<group>"; };
+		42ADB7D21B6B1E890039C57B /* UUDatePicker_DateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUDatePicker_DateModel.h; sourceTree = "<group>"; };
+		42ADB7D41B6B1E890039C57B /* UUDatePicker_DateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUDatePicker_DateModel.m; sourceTree = "<group>"; };
+		42ADB7DD1B6B1FFF0039C57B /* UIImage+Fit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Fit.h"; sourceTree = "<group>"; };
+		42ADB7DE1B6B1FFF0039C57B /* UIImage+Fit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Fit.m"; sourceTree = "<group>"; };
+		42ADB7E01B6B26340039C57B /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		42ADB7E11B6B26340039C57B /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42ADB79F1B6B1E070039C57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42ADB7B81B6B1E070039C57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42ADB7991B6B1E070039C57B = {
+			isa = PBXGroup;
+			children = (
+				42ADB7A41B6B1E070039C57B /* ATDateView */,
+				42ADB7BE1B6B1E070039C57B /* ATDateViewTests */,
+				42ADB7A31B6B1E070039C57B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42ADB7A31B6B1E070039C57B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42ADB7A21B6B1E070039C57B /* ATDateView.app */,
+				42ADB7BB1B6B1E070039C57B /* ATDateViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42ADB7A41B6B1E070039C57B /* ATDateView */ = {
+			isa = PBXGroup;
+			children = (
+				42ADB7CB1B6B1E890039C57B /* ATDatePickView */,
+				42ADB7A91B6B1E070039C57B /* AppDelegate.h */,
+				42ADB7AA1B6B1E070039C57B /* AppDelegate.m */,
+				42ADB7AC1B6B1E070039C57B /* ViewController.h */,
+				42ADB7AD1B6B1E070039C57B /* ViewController.m */,
+				42ADB7AF1B6B1E070039C57B /* Main.storyboard */,
+				42ADB7B21B6B1E070039C57B /* Images.xcassets */,
+				42ADB7B41B6B1E070039C57B /* LaunchScreen.xib */,
+				42ADB7A51B6B1E070039C57B /* Supporting Files */,
+			);
+			path = ATDateView;
+			sourceTree = "<group>";
+		};
+		42ADB7A51B6B1E070039C57B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42ADB7A61B6B1E070039C57B /* Info.plist */,
+				42ADB7A71B6B1E070039C57B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42ADB7BE1B6B1E070039C57B /* ATDateViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				42ADB7C11B6B1E070039C57B /* ATDateViewTests.m */,
+				42ADB7BF1B6B1E070039C57B /* Supporting Files */,
+			);
+			path = ATDateViewTests;
+			sourceTree = "<group>";
+		};
+		42ADB7BF1B6B1E070039C57B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42ADB7C01B6B1E070039C57B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42ADB7CB1B6B1E890039C57B /* ATDatePickView */ = {
+			isa = PBXGroup;
+			children = (
+				42ADB7E01B6B26340039C57B /* 3.png */,
+				42ADB7E11B6B26340039C57B /* 4.png */,
+				42ADB7DD1B6B1FFF0039C57B /* UIImage+Fit.h */,
+				42ADB7DE1B6B1FFF0039C57B /* UIImage+Fit.m */,
+				42ADB7CC1B6B1E890039C57B /* MyDatePicker.h */,
+				42ADB7CD1B6B1E890039C57B /* MyDatePicker.m */,
+				42ADB7CE1B6B1E890039C57B /* UUDatePicker.h */,
+				42ADB7D01B6B1E890039C57B /* UUDatePicker.m */,
+				42ADB7D21B6B1E890039C57B /* UUDatePicker_DateModel.h */,
+				42ADB7D41B6B1E890039C57B /* UUDatePicker_DateModel.m */,
+			);
+			path = ATDatePickView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42ADB7A11B6B1E070039C57B /* ATDateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42ADB7C51B6B1E070039C57B /* Build configuration list for PBXNativeTarget "ATDateView" */;
+			buildPhases = (
+				42ADB79E1B6B1E070039C57B /* Sources */,
+				42ADB79F1B6B1E070039C57B /* Frameworks */,
+				42ADB7A01B6B1E070039C57B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATDateView;
+			productName = ATDateView;
+			productReference = 42ADB7A21B6B1E070039C57B /* ATDateView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42ADB7BA1B6B1E070039C57B /* ATDateViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42ADB7C81B6B1E070039C57B /* Build configuration list for PBXNativeTarget "ATDateViewTests" */;
+			buildPhases = (
+				42ADB7B71B6B1E070039C57B /* Sources */,
+				42ADB7B81B6B1E070039C57B /* Frameworks */,
+				42ADB7B91B6B1E070039C57B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42ADB7BD1B6B1E070039C57B /* PBXTargetDependency */,
+			);
+			name = ATDateViewTests;
+			productName = ATDateViewTests;
+			productReference = 42ADB7BB1B6B1E070039C57B /* ATDateViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42ADB79A1B6B1E070039C57B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = AT;
+				TargetAttributes = {
+					42ADB7A11B6B1E070039C57B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					42ADB7BA1B6B1E070039C57B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 42ADB7A11B6B1E070039C57B;
+					};
+				};
+			};
+			buildConfigurationList = 42ADB79D1B6B1E070039C57B /* Build configuration list for PBXProject "ATDateView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42ADB7991B6B1E070039C57B;
+			productRefGroup = 42ADB7A31B6B1E070039C57B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42ADB7A11B6B1E070039C57B /* ATDateView */,
+				42ADB7BA1B6B1E070039C57B /* ATDateViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42ADB7A01B6B1E070039C57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ADB7B11B6B1E070039C57B /* Main.storyboard in Resources */,
+				42ADB7B61B6B1E070039C57B /* LaunchScreen.xib in Resources */,
+				42ADB7B31B6B1E070039C57B /* Images.xcassets in Resources */,
+				42ADB7E31B6B26340039C57B /* 4.png in Resources */,
+				42ADB7E21B6B26340039C57B /* 3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42ADB7B91B6B1E070039C57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42ADB79E1B6B1E070039C57B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ADB7DF1B6B1FFF0039C57B /* UIImage+Fit.m in Sources */,
+				42ADB7AE1B6B1E070039C57B /* ViewController.m in Sources */,
+				42ADB7AB1B6B1E070039C57B /* AppDelegate.m in Sources */,
+				42ADB7A81B6B1E070039C57B /* main.m in Sources */,
+				42ADB7DB1B6B1E890039C57B /* UUDatePicker_DateModel.m in Sources */,
+				42ADB7D81B6B1E890039C57B /* UUDatePicker.m in Sources */,
+				42ADB7D61B6B1E890039C57B /* MyDatePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42ADB7B71B6B1E070039C57B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ADB7C21B6B1E070039C57B /* ATDateViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42ADB7BD1B6B1E070039C57B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42ADB7A11B6B1E070039C57B /* ATDateView */;
+			targetProxy = 42ADB7BC1B6B1E070039C57B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42ADB7AF1B6B1E070039C57B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42ADB7B01B6B1E070039C57B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42ADB7B41B6B1E070039C57B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42ADB7B51B6B1E070039C57B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42ADB7C31B6B1E070039C57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42ADB7C41B6B1E070039C57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42ADB7C61B6B1E070039C57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ATDateView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42ADB7C71B6B1E070039C57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ATDateView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42ADB7C91B6B1E070039C57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ATDateViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATDateView.app/ATDateView";
+			};
+			name = Debug;
+		};
+		42ADB7CA1B6B1E070039C57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ATDateViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATDateView.app/ATDateView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42ADB79D1B6B1E070039C57B /* Build configuration list for PBXProject "ATDateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42ADB7C31B6B1E070039C57B /* Debug */,
+				42ADB7C41B6B1E070039C57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42ADB7C51B6B1E070039C57B /* Build configuration list for PBXNativeTarget "ATDateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42ADB7C61B6B1E070039C57B /* Debug */,
+				42ADB7C71B6B1E070039C57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42ADB7C81B6B1E070039C57B /* Build configuration list for PBXNativeTarget "ATDateViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42ADB7C91B6B1E070039C57B /* Debug */,
+				42ADB7CA1B6B1E070039C57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42ADB79A1B6B1E070039C57B /* Project object */;
+}
